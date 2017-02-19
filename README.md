@@ -8,6 +8,25 @@ Inspired by Bootstrap 4.
 
 ## Usage
 
+Include one of these in your HTML:
+
+- Full size
+
+    ```html
+    <link rel="stylesheet" 
+          href="https://cdn.rawgit.com/kdbanman/spacing/d12844ed/spacing.css"
+          integrity="sha384-ah9V9uMwTlNJy465+gA7rluMqx8htBIWbynD17zQ4m8lwHYaQad6lTYk7J434ZoT"
+          crossorigin="anonymous" />
+    ````
+- Minified
+
+    ```html
+    <link rel="stylesheet"
+          href="https://cdn.rawgit.com/kdbanman/spacing/d12844ed/spacing.min.css"
+          integrity="sha384-/eo+BBZV8lo5xAeG7Zg4ubcSrzQyciyKecD8DPzS5WWKxbrlICmmGIRpjWcS6SgN"
+          crossorigin="anonymous" />
+    ```
+
 There are six levels of spacing, each labelled with an integer in the classname.
 The same spacing is defined for both `margin` and `padding`.
 
